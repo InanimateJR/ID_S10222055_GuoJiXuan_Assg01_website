@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Main.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Gabriela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="body">
+        <section class="nav" > 
+            <a href="index.html"><button class="button home" > Home </button></a>
+            <a href="projects.html"><button class="button projects"> Projects</button></a>
+            <a href="about.html"><button class="button about"> About </button></a>
+            <h1> My Portfolio </h1>
+            <b class="my_name"> Guo Ji Xuan </b>
+        </section>
+        <section class="bio_box">
+            <b class="bio_para1"> Biography </b>
+            <p class="bio_para2">My passion is to create great and immersive AR/VR and other types of games </p>
+            <p class="bio_para3">for the entertainment of the gaming community. I studied in Clementi Town Secondary</p>
+            <p class="bio_para4">School where in my fourth and final year, I was given the award for the best improved 
+            <p class="bio_para5">student in my cohort from year 3 to year 4 after having suffered from some</p>
+            <p class="bio_para6">unfortunate incidents in year 3. After graduating from secondary school with</p>
+            <p class="bio_para7">an L1R5 of 17, I self learned some of the basics of the python programming</p> 
+            <p class="bio_para8">language. Over the years, I also self learned various songs on the piano despite</p>
+            <p class="bio_para9">not having taken official piano lessons</p>
+        </section>
+        <section class="contact_form">
+            <div>
+                <p class="form_title"> Have a question?</p>
+                <p class="form_title2"> Leave a message below! </p>
+                <!--Add few elements to the form-->
+        
+                <div>
+                    <input type="text" id="txtName" placeholder="Enter your name" />
+                </div>
+                <div>
+                    <input type="text" id="txtAge" placeholder="Enter your age" />
+                </div>
+                <div>
+                    <input type="text" id="txtEmail" placeholder="Enter your email address" />
+                </div>
+                <div>
+                    <select id="selCountry">
+                        <option selected value="">-- Choose the country --</option>
+                        <option value="Cookie Heavens">Cookie Heavens</option>
+                        <option value="Cookie Empire">Cookie Empire</option>
+                        <option value="Singapore">Singapore</option>
+                    </select>
+                </div>
+                <div>
+                    <textarea id="question" name="question" placeholder="Your question? ..." style="height:100px"></textarea>
+                </div>
+        
+                <!--Add to button to save the data.-->
+                <div>
+                    <input type="button" id="bt" value="Submit" onclick="saveFile()" />
+                </div>
+            </div>
+        </section>
+        <section class="contacts_bar2"> 
+            
+        </section>
+        <a href="https://www.instagram.com/inanimatejr/" class="fa fa-instagram" id="instagram3"></a>
+        <a href="https://www.linkedin.com/in/ji-xuan-guo-489854208/" class="fa fa-linkedin" id="linkedin3"></a>
+</body>
+<script src='Script.js' ></script>
+</html>
